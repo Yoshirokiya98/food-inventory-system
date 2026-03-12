@@ -54,10 +54,20 @@ UI/UX を意識し、エラー表示や入力補助など、ユーザーが使�
 ##  セットアップ手順
 
 1. リポジトリをクローン
-2. MySQL に `kanri.sql` をインポート
-3. `mydb_sample.php` を `mydb.php` にコピー
-4. `mydb.php` の接続情報を編集
-5. ローカルサーバー（XAMPP など）で `home.php` を開く
+  
+2. テーブルを作成
+   任意のデータベースを作成してください。
+   例：CREATE DATABASE food_inventory;
+   
+3.本システムで使用するテーブルは以下の通りです。
+  CREATE TABLE kanri ( id INT AUTO_INCREMENT PRIMARY KEY, syouhin VARCHAR(255) NOT NULL,
+                       seizou VARCHAR(255), zaiko INT NOT NULL, created_at DATETIME DEFAULT CURRENT_TIMESTAMP );
+
+4. `mydb_sample.php` を `mydb.php` にコピー
+  
+5. `mydb.php` の接続情報を編集
+  
+6. ローカルサーバー（XAMPP など）で `home.php` を開く
 
 ---
 
