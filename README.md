@@ -47,6 +47,13 @@ UI/UX を意識し、エラー表示や入力補助など、ユーザーが使�
 - username
 - password
 
+##  セットアップ手順
+
+1. リポジトリをクローンまたは ZIP をダウンロード
+2. MySQL に `kanri.sql` をインポート
+3. `mydb_sample.php` を `mydb.php` にコピー
+4. `mydb.php` の接続情報を編集
+5. ローカルサーバー（XAMPP など）で `home.php` を開く
 
 ## 画面サンプル
 
