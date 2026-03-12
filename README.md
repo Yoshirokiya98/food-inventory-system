@@ -34,6 +34,17 @@ UI/UX を意識し、エラー表示や入力補助など、ユーザーが使�
 - データベース：MySQL 
 - その他 ：PDO / セッション管理
 
-画面サンプル
-- 食品登録画面
+## 📸 画面サンプル
+
+### ● 食品登録画面
+![register](images/register.png)
+
+### ● エラー表示（バリデーション）
+![error](images/error.png)
+
+### ● 一覧画面（在庫ソート）
+![list](images/list.png)
+
+### ● 更新画面
+![update](images/update.png)
 
