@@ -65,7 +65,7 @@ UI/UX を意識し、エラー表示や入力補助など、ユーザーが使�
 
 4. `mydb_sample.php` を `mydb.php` にコピー
   
-5. `mydb.php` の接続情報を編集
+5. `mydb.php` の接続情報を編集（ DB 接続ファイルについてを参照）
   
 6. ローカルサーバー（XAMPP など）で `home.php` を開く
 
