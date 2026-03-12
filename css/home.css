@@ -1,0 +1,175 @@
+/* 全体 */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fafafa;
+    margin: 20px;
+    color: #333;
+}
+
+/* タイトル */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 成功メッセージ */
+.alert-success {
+    background-color: #e6ffed;
+    border: 1px solid #b2f5c0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #2f855a;
+}
+
+/* 検索フォーム */
+.search-box {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.search-box input[type="text"] {
+    padding: 6px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-btn {
+    padding: 6px 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #357ab8;
+}
+
+/* テーブルコンテナ（中央寄せ） */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+/* 並び替え案内 */
+.table-note {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 8px;
+    text-align: left;
+    padding-left: 2px;
+}
+
+/* テーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* 行ホバー */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* 在庫0の行を薄赤で強調 */
+.zero-stock {
+    background-color: #ffecec;
+}
+
+/* 更新・削除ボタン（統一サイズ） */
+.btn-update, .btn-delete {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* 更新ボタン */
+.btn-update {
+    background-color: #ffd966;
+    color: #333;
+}
+
+.btn-update:hover {
+    background-color: #f2c94c;
+}
+
+/* 削除ボタン */
+.btn-delete {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #e63946;
+}
+
+/* 新規登録ボタン */
+.btn-add {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.btn-add:hover {
+    background-color: #3e8e41;
+}
+
+.btn-back-list {
+    display: inline-block;
+    margin: 12px 0 14px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.95em;
+}
+
+.btn-back-list:hover {
+    text-decoration: underline;
+}
+
+/* ソートボタン風ヘッダー */
+th a {
+    display: block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+th a:hover {
+    background-color: #357ab8;
+}
+
+/* 一覧へ戻るボタン（他の青ボタンと統一） */
+.btn-back {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #4a90e2; /* 検索ボタン・ソートボタンと同じ色 */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.btn-back:hover {
+    background-color: #357ab8 !important; 
+}
