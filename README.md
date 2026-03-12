@@ -31,8 +31,8 @@ PHP / MySQL を使用して開発した、食品の在庫管理システムで�
 ---
   
 ## 使用技術
-- 言語:PHP / HTML / CSS
-- データベース:MySQL
+- 言語：PHP / HTML / CSS
+- データベース：MySQL
 
 ---
 
